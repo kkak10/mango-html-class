@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #252628;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background-image: url('/static/img/slider_img1.jpg');
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header__welcome {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.header__welcome--picture {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px;
+  border: 4px solid white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-image: url('/static/img/my_picture.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.header__welcome--name_prefix {
+  font-size: 16px;
+}
+
+.header__welcome--name {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+  font-size: 40px;
+  color: white;
+}
+
+.main {
+  width: 700px;
+  margin: 30px auto 0;
+}
+
+.section__skilset--title {
+  font-weight: 100;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.section__skil {
+  float: left;
+  margin-right: 88px;
+}
+
+.section__skil:last-child {
+  margin-right: 0;
+}
+
+.section__skil-description {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-weight: 100;
+}
+
+.section__skil--circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.section__skil--circle_inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 130px;
+  height: 130px;
+  line-height: 130px;
+  background-color: #252628;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.section__skil--html .section__skil--circle {
+  background-color: white;
+  background-image: linear-gradient(-90deg, #00FDDA 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #00FDDA 50%, #2f3439 50%, #2f3439);
+}
+
+.section__skil--css .section__skil--circle {
+  background-color: white;
+  background-image: linear-gradient(-90deg, #00FDDA 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #00FDDA 50%, #2f3439 50%, #2f3439);
+}
+
+.section__skil--javascript .section__skil--circle {
+  background-color: white;
+  background-image: linear-gradient(-90deg, #00FDDA 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #00FDDA 50%, #2f3439 50%, #2f3439);
+}
